@@ -123,3 +123,30 @@ footer a {
     color: #777;
     text-decoration: none;
 }
+/* PROJECT CARDS STYLING */
+.project-card {
+    background-color: #1a1a1a; /* Darker box */
+    border: 1px solid #333;
+    padding: 25px;
+    margin: 20px auto; /* Centers the card */
+    max-width: 600px;  /* Keeps it from getting too wide */
+    border-radius: 8px;
+    text-align: left;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.project-card:hover {
+    border-color: #ff0055; /* Glows pink on hover */
+    transform: translateY(-5px); /* Pops up slightly */
+}
+
+.project-card h2 {
+    color: #fff;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.project-card p {
+    color: #aaa;
+    margin-bottom: 20px;
+}
